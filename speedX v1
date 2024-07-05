@@ -1,0 +1,7 @@
+local player = game.Players.LocalPlayer
+local humanoid = player.Character.Humanoid
+
+local speed = 100
+
+humanoid.WalkSpeed = speed
+humanoid.JumpPower = speed
